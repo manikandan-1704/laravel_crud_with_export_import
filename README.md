@@ -1,4 +1,4 @@
-# Laravel CRUD Task with Export and Import
+# Laravel CRUD Task with Export and Import Functionality
 
 This project is a Laravel application that provides basic CRUD (Create, Read, Update, Delete) operations for managing items. Additionally, it includes functionalities for exporting and importing items in both CSV and XLSX formats.
 
