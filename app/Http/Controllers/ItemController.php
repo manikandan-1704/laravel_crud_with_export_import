@@ -148,6 +148,8 @@ public function import(Request $request)
                 ['description' => $row[1]]
             );
         }
+
+        // Deleting path after operation
         Storage::delete($path);
 
         return redirect()->route('items.index')->with('success', 'Items imported successfully!');
